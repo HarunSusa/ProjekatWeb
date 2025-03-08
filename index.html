@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZajednoNaPutu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="slike/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada&family=Macondo&display=swap" rel="stylesheet">
+</head>
+    <body class="background-image" style="background-image: url(slike/slika.jpg);">
+    <nav>
+        <a href="#" class="naziv">ZajednoNaPutu</a>
+            <ul class="linkovi">
+                <li><a href="#pocetna">Početna</a></li>
+                <li><a href="#pronadjiVoznju">Pronađi vožnju</a></li>
+                <li><a href="#ponudiVoznju">Ponudi vožnju</a></li>
+                <li><a href="#oNama">O nama</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+        <section class="pocetna">
+            <div>
+                <h1>Putuj Zajedno, Vozi sa Stilom!</h1>
+                <p>Poveži se sa vozačima i putnicima i učini putovanje udobnijim i ekonomičnijim.</p>
+                <a href="#pronadjiVoznju">Pronađi vožnju</a>
+                <a href="#ponudiVoznju">Ponudi Vožnju</a>
+            </div>
+        </section>
+        <section class="pronadjiVoznju" id="pronadjiVoznju">
+            <h2>Pronađi Vožnju</h2>
+            <p>Unesite svoje podatke i pronađite vozača koji putuje u vašem pravcu.</p>
+            <form class="forma">
+                <label>Početna lokacija:</label>
+                <input type="text"  placeholder="Unesite početnu lokaciju">
+                <label>Destinacija:</label>
+                <input type="text" placeholder="Unesite destinaciju">
+                <label>Datum putovanja:</label>
+                <input type="date">
+                <button type="submit">Pretraži vožnje</button>
+            </form>
+            </section>
+        <section id="ponudiVoznju" class="pronadjiVoznju">
+            <h2>Ponudi Vožnju</h2>
+            <p>Unesite podatke za vašu vožnju i povežite se sa putnicima koji idu u istom pravcu.</p>
+            <form class="forma">
+                <label>Početna lokacija:</label>
+                <input type="text"placeholder="Unesite početnu lokaciju">
+                <label>Destinacija:</label>
+                <input type="text" placeholder="Unesite destinaciju">
+                <label for="date">Datum putovanja:</label>
+                <input type="date">
+                <label>Vrijeme polaska:</label>
+                <input type="time">
+                <label>Broj slobodnih mjesta:</label>
+                <input type="number"  placeholder="Unesite broj slobodnih mjesta" min="1" max="10" >
+                <label>Cijena:</label>
+                <input type="number" placeholder="Unesite cijenu(u KM)">
+                <button type="submit">Ponudi vožnju</button>
+            </form>
+        </section>
+        <section id="oNama">
+            <div class="kontejner">
+                <div class="oNama">
+                    <div class="lijeviBox">
+                        <h3>Misija</h3>
+                        <p>Naša misija je da omogućimo putnicima i vozačima lako povezivanje, učineći putovanja udobnijim, jeftinijim i ekološki prihvatljivijim.</p>
+                    </div>
+                    <div class="srednjiBox">
+                        <h3>Naš tim</h3>
+                        <p>Naš tim čine iskusni profesionalci sa strašću za tehnologiju i transport, posvećeni stalnom unapređenju naših usluga.</p>
+                    </div>
+                    <div class="desniBox">
+                        <h3>Naša vizija</h3>
+                        <p>Naša vizija je da postanemo lideri u oblasti dijeljenja vožnje, stvarajući zajednicu vozača i putnika koji se međusobno povezuju.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="kontakt" class="kontakt">
+            <div>
+                <h2>Kontaktirajte nas</h2>
+                <div class="kontaktDiv">
+                    <div class="informacije">
+                        <h3>Pratite nas</h3>
+                        <div class="drustveneMreze">
+                            <a href="https://www.instagram.com/fsk_sarajevo/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/FSK.Sarajevo" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://x.com/">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <h3>Adresa:</h3>
+                        <p>Zmaja od Bosne 8, Sarajevo 71000</p>
+                        <h3>Telefon:</h3>
+                        <p>+387 33 565 200</p>
+                        </div>
+                    <div class="mapa">
+                
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.9885430166732!2d18.39649477571083!3d43.85606613928708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c923d72e703b%3A0xebf148def438abc2!2sFakultet%20za%20saobra%C4%87aj%20i%20komunikacije%20Univerziteta%20u%20Sarajevu!5e0!3m2!1sbs!2sba!4v1737293074462!5m2!1sbs!2sba" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+                    </div>
+            </div>
+        </section>
+        
+        
+        
+        <script src="script.js"></script> 
+</body>
+</html>
